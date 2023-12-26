@@ -1,0 +1,36 @@
+---
+import { Image } from 'astro:assets';
+import profile from "../assets/rafitajaen-profile.jpg";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;400;600&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Rafael Jaén | Portfolio</title>
+	</head>
+	<body class="flex flex-col gap-24 bg-obscure">
+
+		<nav class="w-full bg-obscure fill-white p-3">
+			<svg class="h-14 w-14" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-246q54-53 125.5-83.5T480-360q83 0 154.5 30.5T760-246v-514H200v514Zm280-194q58 0 99-41t41-99q0-58-41-99t-99-41q-58 0-99 41t-41 99q0 58 41 99t99 41ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm80-80h400v-10q-42-35-93-52.5T480-280q-56 0-107 17.5T280-210v10Zm200-320q-25 0-42.5-17.5T420-580q0-25 17.5-42.5T480-640q25 0 42.5 17.5T540-580q0 25-17.5 42.5T480-520Zm0 17Z"/></svg>
+		</nav>
+
+		<header class="flex flex-col items-center text-white w-full bg-obscure py-8 gap-4">
+			<h1 class="font-semibold text-5xl text-center">Rafael Jaén <span class="font-thin">Portfolio</span></h1>
+			<p>FullStack Developer</p>
+			<button id="resume-button" class="bg-white text-obscure font-md font-medium rounded-full px-3 py-2 align-middle whitespace-nowrap">Get the resume &nbsp;
+				<svg class="inline-flex bg-emerald-300 rounded-full" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+			</button>
+		</header>
+
+		<section class="w-full bg-canvas p-4">
+			<h2 class="text-obscure text-2xl font-semibold pl-4">About Me</h2>
+		</section>
+		
+	</body>
+</html>
