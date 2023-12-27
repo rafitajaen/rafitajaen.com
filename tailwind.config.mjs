@@ -8,6 +8,7 @@ export default {
 			colors: {
 				obscure: '#121212',
 				canvas: '#fdfdfb',
+				ash: '#4A4C52',
 			},
 			fontFamily: {
 				'sans': ['"Inter Tight"', ...defaultTheme.fontFamily.sans],
